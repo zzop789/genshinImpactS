@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\sceneSource">
+      <UniqueIdentifier>{ae399fdc-7ecb-4b16-a1ec-5b7977b1748a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sceneH">
+      <UniqueIdentifier>{34321b00-e669-461f-9571-7b52a3567786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\math">
+      <UniqueIdentifier>{6dbe3b30-ab9c-456c-9730-b45a2bef7590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gameObject">
+      <UniqueIdentifier>{1e0cbb2a-d586-4d27-83d8-ddfdaf2f8edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gameObject">
+      <UniqueIdentifier>{fd8d840f-031a-4434-a46b-73b3d8a2e429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gameObject\animation">
+      <UniqueIdentifier>{b1c15764-00d0-405c-8062-beaff11621ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gameObject\animationSource">
+      <UniqueIdentifier>{f67d9cf7-60bb-4f6b-9ac8-f40f0573b6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\animPNG">
+      <UniqueIdentifier>{e07005cf-c6ec-4f13-81f3-70674708ca35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\math">
+      <UniqueIdentifier>{e1baef59-3b8c-4949-9e97-949cb1bc0ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gameObject\objects">
+      <UniqueIdentifier>{109d133c-5bf7-4305-8435-41e280314c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gameObject\objects">
+      <UniqueIdentifier>{106295cd-f9b7-4f12-adb3-2b59f044fab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gameObject\objects\button">
+      <UniqueIdentifier>{76a8a9c7-52b5-4386-8737-ddca53e0c71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gameObject\objects\button">
+      <UniqueIdentifier>{9236d75e-e94f-4ee7-b8fe-94d687228fa9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>源文件\sceneSource</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>源文件\gameObject\animationSource</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2d.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>源文件\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>源文件\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="atlasl.cpp">
+      <Filter>源文件\gameObject\animationSource</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>源文件\gameObject\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>源文件\gameObject\objects\button</Filter>
+    </ClCompile>
+    <ClCompile Include="start_button.cpp">
+      <Filter>源文件\gameObject\objects\button</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menuScene.h">
+      <Filter>头文件\sceneH</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>头文件\sceneH</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\sceneH</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件\gameObject\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2d.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>头文件\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>头文件\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>头文件\gameObject\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件\gameObject\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>头文件\gameObject\objects\button</Filter>
+    </ClInclude>
+    <ClInclude Include="start_button.h">
+      <Filter>头文件\gameObject\objects\button</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
